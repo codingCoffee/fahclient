@@ -71,6 +71,14 @@ Q: How can I use this with Docker Compose?
 A: Well, you can use it with docker compose if you don't want the GPU support. This is because docker compose still doesn't have the a way to specify the `--gpu` flag, or atleast I wasn't able to figure it out. If you did, open a issue / send a PR with the `docker-compose.yml` file.
 
 
+## Build
+
+To build the image locally
+
+```sh
+docker build -t codingcoffee/fahclient .
+```
+
 ## Contribution
 
 Have better suggestions to optimize the image? Found some typos? Go ahead and send in a Pull Request! Contributions of any kind welcome!
