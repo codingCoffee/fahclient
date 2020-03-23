@@ -55,14 +55,14 @@ Since this image uses [nvidia/cuda](https://hub.docker.com/r/nvidia/cuda) as it'
 
 ## List of usable environment variables
 
-| Environment Varible | Value                   | Default   |
-| ------------------- | ----------------------- | --------- |
-| `USER`              | your username           | Anonumous |
-| `TEAM`              | your team name          | 0         |
-| `PASSKEY`           | your passkey            |           |
-| `ENABLE_GPU`        | `true`/`false`          | `false`   |
-| `ENABLE_SMP`        | `true`/`false`          | `true`    |
-| `POWER`             | `full`/`medium`/`light` | `full`    |
+| Environment Varible | Value                   | Default     |
+| ------------------- | ----------------------- | ----------- |
+| `USER`              | your username           | `Anonumous` |
+| `TEAM`              | your team name          | `0`         |
+| `PASSKEY`           | your passkey            |             |
+| `ENABLE_GPU`        | `true`/`false`          | `false`     |
+| `ENABLE_SMP`        | `true`/`false`          | `true`      |
+| `POWER`             | `full`/`medium`/`light` | `full`      |
 
 
 ## FAQ
