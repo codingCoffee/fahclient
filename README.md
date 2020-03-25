@@ -24,7 +24,6 @@
 docker run -it --rm -d \
   --name fahclient \
   -p 7396:7396 \
-  -p 36330:36330 \
   codingcoffee/fahclient \
   --allow 0/0  \
   --web-allow 0/0
@@ -37,7 +36,6 @@ docker run -it --rm -d \
   --name fahclient \
   --gpus all \
   -p 7396:7396 \
-  -p 36330:36330 \
   -e ENABLE_GPU=true \
   codingcoffee/fahclient \
   --allow 0/0  \
@@ -89,6 +87,7 @@ To build the image locally
 ```sh
 docker build -t codingcoffee/fahclient .
 ```
+
 
 ## Contribution
 

@@ -39,7 +39,6 @@ ENV ENABLE_SMP "true"
 ENV POWER "full"
 
 EXPOSE 7396
-EXPOSE 36330
 
 ENTRYPOINT ["/opt/fahclient/entrypoint.sh"]
 
