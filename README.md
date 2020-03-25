@@ -7,7 +7,7 @@
 
 ---
 
-[![License](https://img.shields.io/github/license/codingcoffee/fahclient)](https://github.com/codingcoffee/fahclient/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/codingcoffee/fahclientt)](https://github.com/codingcoffee/fahclient/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/codingcoffee/fahclient)](https://hub.docker.com/r/codingcoffee/fahclient)
 [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/codingcoffee/fahclient?sort=date)](https://hub.docker.com/r/codingcoffee/fahclient/tags?name=latest)
 [![Build Status](https://img.shields.io/github/workflow/status/codingCoffee/fahclient/Docker%20Image%20CI)](https://github.com/codingCoffee/fahclient/actions?query=workflow%3A%22Docker+Image+CI%22)
