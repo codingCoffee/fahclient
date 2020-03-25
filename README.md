@@ -7,10 +7,10 @@
 
 ---
 
-[![License](https://img.shields.io/github/license/codingcoffee/fahclientt)](https://github.com/codingcoffee/fahclient/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/codingcoffee/fahclient)](https://github.com/codingcoffee/fahclient/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/codingcoffee/fahclient)](https://hub.docker.com/r/codingcoffee/fahclient)
 [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/codingcoffee/fahclient?sort=date)](https://hub.docker.com/r/codingcoffee/fahclient/tags?name=latest)
-[![Build Status](https://img.shields.io/github/workflow/status/codingCoffee/fahclient/Docker%20Image%20CI)](https://github.com/codingCoffee/fahclient/actions?query=workflow%3A%22Docker+Image+CI%22)
+[![Docker Image CI](https://github.com/codingCoffee/fahclient/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/codingCoffee/fahclient/actions?query=workflow%3A%22Docker+Image+CI%22)
 
 [Folding@home (FAH or F@h)](https://foldingathome.org) is a distributed computing project for simulating protein dynamics, including the process of protein folding and the movements of proteins implicated in a variety of diseases. It brings together citizen scientists who volunteer to run simulations of protein dynamics on their personal computers. Insights from this data are helping scientists to better understand biology, and providing new opportunities for developing therapeutics.
 
