@@ -1,6 +1,5 @@
 <div align="center">
-    <img src="./.assets/images/fah.png" width="250">
-    <img src="./.assets/images/docker.jpg" width="250">
+    <img src="./.assets/images//docker-fahclient.png" width="250">
     <h1>
         Dockerized FAHClient
     </h1>
@@ -14,7 +13,6 @@
 [![Build Status](https://img.shields.io/github/workflow/status/codingcoffee/fahclinet/Docker%20Image%20CI)](https://github.com/codingCoffee/fahclient/actions?query=workflow%3A%22Docker+Image+CI%22)
 
 [Folding@home (FAH or F@h)](https://foldingathome.org) is a distributed computing project for simulating protein dynamics, including the process of protein folding and the movements of proteins implicated in a variety of diseases. It brings together citizen scientists who volunteer to run simulations of protein dynamics on their personal computers. Insights from this data are helping scientists to better understand biology, and providing new opportunities for developing therapeutics.
-
 
 ## Usage
 
@@ -46,11 +44,9 @@ You can also visit the web dashboard by visiting http://localhost:7396 in your b
 
 <img src="./.assets/images/fahclient_web_dashboard.png" width="750">
 
-
 ## GPU Support
 
 Since this image uses [nvidia/cuda](https://hub.docker.com/r/nvidia/cuda) as it's base image, to use the GPU support, you'll need to have an NVIDIA GPU, and [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-docker) installed on your system.
-
 
 ## List of usable environment variables
 
@@ -63,13 +59,11 @@ Since this image uses [nvidia/cuda](https://hub.docker.com/r/nvidia/cuda) as it'
 | `ENABLE_SMP`        | `true`/`false`          | `true`      |
 | `POWER`             | `full`/`medium`/`light` | `full`      |
 
-
 ## FAQ
 
 Q: How can I use this with Docker Compose?
 
 A: Well, you can use it with docker compose if you don't want the GPU support. This is because docker compose still doesn't have the a way to specify the `--gpu` flag, or atleast I wasn't able to figure it out. If you did, open a issue / send a PR with the `docker-compose.yml` file.
-
 
 ## Logs
 
@@ -79,7 +73,6 @@ To get the logs of the running container
 d ocker logs -f fahclient
 ```
 
-
 ## Build
 
 To build the image locally
@@ -88,13 +81,10 @@ To build the image locally
 docker build -t codingcoffee/fahclient .
 ```
 
-
 ## Contribution
 
 Have better suggestions to optimize the image? Found some typos? Go ahead and send in a Pull Request! Contributions of any kind welcome!
 
-
 ## LICENSE
 
 The code in this repository has been released under the [GNU General Public License v3](https://github.com/codingcoffee/fahclient/blob/master/LICENSE)
-
