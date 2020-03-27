@@ -70,7 +70,7 @@ A: Well, you can use it with docker compose if you don't want the GPU support. T
 To get the logs of the running container
 
 ```sh
-d ocker logs -f fahclient
+docker logs -f fahclient
 ```
 
 ## Build
