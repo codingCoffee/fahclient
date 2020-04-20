@@ -20,6 +20,7 @@ RUN set -ex \
   && mkdir -p /opt/fahclient \
   && wget https://download.foldingathome.org/releases/public/release/fahclient/debian-stable-64bit/${VERSION}/latest.tar.bz2 -O /tmp/fahclient.tar.bz2 \
   && tar -xjf /tmp/fahclient.tar.bz2 -C /opt/fahclient --strip-components=1 \
+  && wget https://apps.foldingathome.org/GPUs.txt -O /opt/fahclient/GPUs.txt \
   && chown -R folding:folding /opt/fahclient \
   && rm -rf /tmp/fahclient.tar.bz2 \
   && apt remove -y software-properties-common \
@@ -32,7 +33,7 @@ COPY --chown=folding:folding entrypoint.sh /opt/fahclient
 USER folding
 WORKDIR /opt/fahclient
 
-ENV USER "Anonumous"
+ENV USER "Anonymous"
 ENV TEAM "0"
 ENV ENABLE_GPU "false"
 ENV ENABLE_SMP "true"
