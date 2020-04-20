@@ -2,7 +2,7 @@ FROM nvidia/cuda:10.2-base-ubuntu18.04
 
 LABEL maintainer="dockerfile@codingcoffee.me"
 
-ARG VERSION="v7.5"
+ARG VERSION="v7.6"
 
 RUN set -ex \
   && apt update \
