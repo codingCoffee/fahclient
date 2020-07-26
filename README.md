@@ -1,8 +1,8 @@
 <div align="center">
-    <img src="./.assets/images//docker-fahclient.png" width="250">
-    <h1>
-        Dockerized FAHClient
-    </h1>
+  <img src="./.assets/images//docker-fahclient.png" width="250">
+  <h1>
+    Dockerized FAHClient
+  </h1>
 </div>
 
 ---
@@ -88,3 +88,4 @@ Have better suggestions to optimize the image? Found some typos? Go ahead and se
 ## LICENSE
 
 The code in this repository has been released under the [GNU General Public License v3](https://github.com/codingcoffee/fahclient/blob/master/LICENSE)
+
